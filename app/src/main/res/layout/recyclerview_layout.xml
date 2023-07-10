@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="315dp"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/curved_mainlayout"
+    android:backgroundTint="#821717"
+    android:padding="5dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/history_price"
+        android:layout_width="84dp"
+        android:layout_height="39dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="19dp"
+        android:gravity="center"
+        android:text="Rp900.000,00"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/history_titlerel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="101dp"
+        android:text="Remnant Yavin Consular Armor Set"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/history_outlet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="38dp"
+        android:gravity="center"
+        android:text="Rajawali Outlet"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/history_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="236dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="51dp"
+        android:gravity="center"
+        android:text="Qty: 1"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="10sp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/history_status"
+        android:layout_width="115dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="198dp"
+        android:layout_marginTop="106dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/curved_mainlayout"
+        android:scaleType="center"
+        app:srcCompat="@drawable/paid"
+        tools:ignore="ImageContrastCheck" />
+</RelativeLayout>

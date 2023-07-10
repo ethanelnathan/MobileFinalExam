@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Star Wars Fashion App</string>
+    <string name="swtor_fashion">SWTOR Fashion</string>
+    <string name="remnant_underworld_knight_armor_set">Remnant Underworld Knight Armor Set</string>
+    <string name="account">account</string>
+    <string name="submit">submit</string>
+    <string name="we_officially_have_3_outlets_check_them_on_our_outlets_tab_below">We officially have 3 outlets! check them on our outlets tab below!</string>
+    <string name="news_of_the_day">News of the day!</string>
+    <string name="best_sellers">Best Sellers</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="back">back</string>
+    <string name="email">Email</string>
+    <string name="contact_us">Contact Us!</string>
+    <string name="accountbtn">accountbtn</string>
+    <string name="account_username">Account Username</string>
+    <string name="ethanelnathan">Ethanelnathan</string>
+    <string name="gold">Gold</string>
 </resources>
