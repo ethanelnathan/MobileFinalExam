@@ -129,7 +129,7 @@
         android:scaleY="0.8"
         android:src="@drawable/sign_in_btn"
         android:textColor="@color/black"
-        />
+        android:importantForAccessibility="no" />
 
     <TextView
         android:id="@+id/loginpage_forgot"
